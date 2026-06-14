@@ -51,4 +51,4 @@ def pre_input_hook(raw_filepath, output_jsonpath):
 if __name__ == "__main__":
     # 테스트 구동 프로세스
     os.makedirs("wiki", exist_ok=True)
-    pre_input_hook("raw/example_input.md", "wiki/pages.json")
+    pre_input_hook("raw/algorithm/binary_search.md", "wiki/pages.json")
